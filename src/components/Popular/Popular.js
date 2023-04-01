@@ -2,7 +2,7 @@ import { connect } from "react-redux";
 import axios from "axios";
 import React,{useEffect,Fragment} from 'react'
 import {getLangs} from "../../actions/langs"
-const Cities = ({getLangs, lang_result,filter }) => {
+const Popular = ({getLangs, lang_result,filter }) => {
   const {lang,click}=filter;
   console.log(lang);
  if(click==1)
@@ -33,4 +33,4 @@ const mapStateToProps = state => ({
   filter:state.visibilityFilter
 });
 
-export default connect(mapStateToProps,{getLangs} )(Cities);
+export default connect(mapStateToProps,{getLangs} )(Popular);

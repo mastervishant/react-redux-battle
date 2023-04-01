@@ -6,7 +6,7 @@ import store from './store';
 import { Provider } from "react-redux";
 import rootReducer from "./reducers";
 import Filter from "./components/Filter";
-import Cities from "./components/Cities/Cities";
+import Popular from "./components/Popular/Popular";
 import Battle from "./components/Battle/Battle";
 import Nav from "./components/Navgation/Navigation";
 import Home from "./components/Home/Home";
@@ -21,7 +21,7 @@ return(
     <Nav />
 <Routes>
 <Route exact path="/"  element={ <Home/>} />
-  <Route exact path="/popular"  element={ <div><Filter /><Cities /></div>} />
+  <Route exact path="/popular"  element={ <div><Filter /><Popular /></div>} />
   <Route exact path="/battle"  element={ <Battle/>} />
     </Routes>
     
