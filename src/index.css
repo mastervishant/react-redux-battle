@@ -1,0 +1,178 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  color: #d0021b;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 1em 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.button {
+  background-color: #0a0a0a;
+  border: none;
+  border-radius: 3px;
+  color: #e6e6e6;
+  display: block;
+  font-size: 16px;
+  margin: 10px auto;
+  padding: 7px 0;
+  text-align: center;
+  width: 200px;
+}
+
+.button:hover:enabled {
+  background: linear-gradient(#1a1a1a,#0a0a0a);
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border: 10px solid #dbd6d6;
+  border-radius: 50%;
+}
+.avatar1{
+  height: 100px;
+  width: 100px;
+  border-radius: 25%;
+  float:left;
+  margin-right: 1em;
+}
+
+.space-list-items {
+  margin-bottom: 7px;
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+}
+
+.languages li {
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.popular-item {
+  margin: 20px;
+  text-align: center;
+  padding: 3em;
+ width:10%;
+  text-align: center;
+  background: #f2f2f2;
+  height:240px;
+}
+
+.popular-rank {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.home-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  margin-right: 15px;
+}
+
+.active {
+  font-weight: bold;
+  color: maroon;
+}
+
+.grid_box{
+  padding: 28px;
+  font-weight: bold;
+  text-align: left;
+  background: #f2f2f2;
+  height:100%;
+  width: 100%;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+ .column {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.column1 {
+ text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 2em;
+  background-color: #f2f2f2;
+}
+ .column input {
+  border: 1px solid rgba(0, 0, 0, 0.43);
+  border-radius: 3px;
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 5px;
+  width: 80%;
+}
+ .column label {
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+}
+ .header {
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.reset {
+  background: transparent;
+  border: none;
+  color: #d0021b;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.reset:hover {
+  cursor: pointer;
+}
